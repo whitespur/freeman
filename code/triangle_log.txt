@@ -1,0 +1,421 @@
+/Users/jinglong/.pyenv/versions/3.6.3/bin/python /Applications/PyCharm.app/Contents/helpers/pydev/pydevd.py --multiproc --qt-support --client 127.0.0.1 --port 60963 --file /Users/jinglong/IdeaProjects/quant/ccxt/examples/py/triangle.py
+pydev debugger: process 2791 is connecting
+
+Connected to pydev debugger (build 162.1237.1)
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:ETH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:27:32 GMT
+P1: buy1:6353.18,0.013696,sell1:6353.28,0.098057
+P2: buy1:197.34,0.30902,sell1:197.4,12.19764
+P3: buy1:0.031062,16.171,sell1:0.031063,51.584
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:27:32 GMT
+
+
+-----find_trade_chance开始在交易所FCoin寻找三角套利机会,base:ETH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:27:40 GMT
+P1: buy1:6354.66,0.0002,sell1:6357.34,0.123
+P2: buy1:197.29,0.0029,sell1:197.34,0.063
+P3: buy1:0.031034,1.7451,sell1:0.031055,2.4405
+在交易所FCoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:27:40 GMT
+
+
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:ETH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:27:46 GMT
+P1: buy1:6352.26,1.0107,sell1:6358.08,0.0054
+P2: buy1:197.4,0.062,sell1:197.5,9.09220945
+P3: buy1:0.031029,19.291943,sell1:0.031095,18.358
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:27:46 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:ETH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:27:53 GMT
+P1: buy1:6353.07,0.0081,sell1:6353.14,0.166
+P2: buy1:197.48,9.711,sell1:197.5,4.1544
+P3: buy1:0.031069,0.4635,sell1:0.031082,12.0969
+++++++发现正套利机会 profit is 0.062499785084499035,price_diff is 0.011702519999978307,trade_size is 5.340711665915965,P3: 0.031082 < P2/P1: 0.031083842005685373,time:Tue, 30 Oct 2018 09:27:53 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:ETH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:19 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6355.971987,0.41
+P2: buy1:197.183116,10.38,sell1:197.47172,2.1194419
+P3: buy1:0.031055,4.7672107,sell1:0.03108975,8.0
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:19 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:ETH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:25 GMT
+P1: buy1:6350.9932,0.08514518,sell1:6351.0,0.75027935
+P2: buy1:197.376,0.1,sell1:197.4457,1.353039
+P3: buy1:0.03107,0.089882,sell1:0.0310798,2.0
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:25 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:XRP,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:30 GMT
+P1: buy1:6350.56,0.149864,sell1:6351.95,0.004855
+P2: buy1:0.44769,0.1,sell1:0.44798,428.0
+P3: buy1:7.045e-05,4864.0,sell1:7.049e-05,870.0
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:30 GMT
+
+
+-----find_trade_chance开始在交易所FCoin寻找三角套利机会,base:XRP,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:38 GMT
+P1: buy1:6352.4,0.001,sell1:6353.87,0.2
+P2: buy1:0.4473,809.96,sell1:0.4476,965.46
+P3: buy1:7.018e-05,142.0,sell1:7.072e-05,141.0
+在交易所FCoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:38 GMT
+
+
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:XRP,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:43 GMT
+P1: buy1:6351.24,1.1422,sell1:6356.82,0.5
+P2: buy1:0.4476,2500.0,sell1:0.4481,140.588
+P3: buy1:7.02e-05,1252.65717735,sell1:7.07e-05,11562.0
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:43 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:XRP,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:49 GMT
+P1: buy1:6352.1,1.0019,sell1:6352.11,0.1941
+P2: buy1:0.4479,1761.2,sell1:0.448,1397.92
+P3: buy1:7.051e-05,139.0,sell1:7.056e-05,6805.0
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:49 GMT
+
+
+fetch_order_book e is kucoin No market symbol XRP/USDT ,exchange is Kucoin
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:XRP,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:31:57 GMT
+P1: buy1:6349.6064,0.10001716,sell1:6350.9999,0.02711704
+P2: buy1:0.4476,235.166,sell1:0.448,471.341
+P3: buy1:7.049e-05,85.118,sell1:7.056e-05,137.767
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:31:57 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:BCH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:02 GMT
+P1: buy1:6350.57,0.004489,sell1:6351.86,0.880577
+P2: buy1:420.34,3.489,sell1:420.63,0.00262
+P3: buy1:0.066188,0.045,sell1:0.066235,27.0
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:02 GMT
+
+
+-----find_trade_chance开始在交易所FCoin寻找三角套利机会,base:BCH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:07 GMT
+P1: buy1:6352.4,0.001,sell1:6353.85,0.2448
+P2: buy1:420.39,1.1969,sell1:420.64,4.0772
+P3: buy1:0.066109,0.0144,sell1:0.066199,1.0619
+在交易所FCoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:07 GMT
+
+
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:BCH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:11 GMT
+P1: buy1:6350.62,0.0042,sell1:6356.82,0.5
+P2: buy1:419.57,3.0297235889,sell1:421.0,1.0
+P3: buy1:0.066,0.3,sell1:0.0664,2.252
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:11 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:BCH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:17 GMT
+P1: buy1:6352.3,0.0015,sell1:6352.31,0.002
+P2: buy1:420.61,4.0,sell1:420.69,0.0832
+P3: buy1:0.066179,0.6338,sell1:0.066246,0.3283
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:17 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:BCH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:22 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6355.971985,0.5
+P2: buy1:418.149662,1.165,sell1:422.291741,4.0
+P3: buy1:0.06606791,8.67,sell1:0.06606792,0.24067221
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:22 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:BCH,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:27 GMT
+P1: buy1:6350.19,0.1,sell1:6350.9996,0.62881786
+P2: buy1:420.6801,2.42,sell1:420.8488,1.5
+P3: buy1:0.06618936,0.35750159,sell1:0.06626085,5.09222942
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:27 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:EOS,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:32 GMT
+P1: buy1:6350.59,0.999976,sell1:6352.0,2.36321
+P2: buy1:5.1509,19.4,sell1:5.1542,393.76
+P3: buy1:0.0008107,100.58,sell1:0.000811,19.39
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:32 GMT
+
+
+-----find_trade_chance开始在交易所FCoin寻找三角套利机会,base:EOS,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:37 GMT
+P1: buy1:6352.4,0.001,sell1:6354.76,0.1318
+P2: buy1:5.156,360.3074,sell1:5.157,10.0
+P3: buy1:0.00080994,84.86,sell1:0.00081032,270.48
+++++++发现正套利机会 profit is 1.0752709574488617,price_diff is 0.006610876799999709,trade_size is 162.65179188468753,P3: 0.00081032 < P2/P1: 0.0008113603031428409,time:Tue, 30 Oct 2018 09:32:37 GMT
+
+
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:EOS,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:42 GMT
+P1: buy1:6350.62,0.0042,sell1:6356.82,0.5
+P2: buy1:5.1514,116.9946,sell1:5.1605,100.0
+P3: buy1:0.0008111,19.1,sell1:0.000813,5.5
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:42 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:EOS,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:47 GMT
+P1: buy1:6352.26,0.0403,sell1:6352.27,0.222
+P2: buy1:5.154,299.9854,sell1:5.1553,0.3233
+P3: buy1:0.00081094,7.33,sell1:0.00081167,41.0
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:47 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:EOS,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:52 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6355.45,0.1293
+P2: buy1:5.14207,871.81,sell1:5.162591,870.07
+P3: buy1:0.00080946,41.9824,sell1:0.00081252,10.0293
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:52 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:EOS,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:32:57 GMT
+P1: buy1:6350.8919,0.01203636,sell1:6351.9321,0.2
+P2: buy1:5.1534,114.46,sell1:5.155,104.4527
+P3: buy1:0.000811,3.486,sell1:0.0008118,14.0722
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:32:57 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:XLM,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:02 GMT
+P1: buy1:6351.51,0.114768,sell1:6351.83,0.107868
+P2: buy1:0.2248,4858.8,sell1:0.225,2217.2
+P3: buy1:3.539e-05,587.0,sell1:3.542e-05,53.0
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:02 GMT
+
+
+fetch_order_book e is fcoin No market symbol XLM/USDT ,exchange is FCoin
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:XLM,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:09 GMT
+P1: buy1:6351.23,0.0008,sell1:6356.79,0.5
+P2: buy1:0.2237,13443.2191,sell1:0.2258,9555.51674883
+P3: buy1:3.521e-05,79.13567922,sell1:3.563e-05,8008.57635595
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:09 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:XLM,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:14 GMT
+P1: buy1:6352.29,0.0047,sell1:6352.55,0.0075
+P2: buy1:0.225,2000.0,sell1:0.225266,268.2791
+P3: buy1:3.545e-05,322.06,sell1:3.555e-05,20299.0
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:14 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:XLM,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:19 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6355.449998,0.5
+P2: buy1:0.223823,638.2594,sell1:0.226432,8.9401
+P3: buy1:3.534e-05,28.2965,sell1:3.551e-05,1906.1531
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:19 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:XLM,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:24 GMT
+P1: buy1:6350.7147,0.10001716,sell1:6351.932,3.65380752
+P2: buy1:0.2246,4607.412,sell1:0.2256,3769.924
+P3: buy1:3.538e-05,29.439,sell1:3.546e-05,2650.882
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:24 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:LTC,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:29 GMT
+P1: buy1:6351.83,9.3e-05,sell1:6351.86,0.365546
+P2: buy1:49.6,0.40257,sell1:49.65,0.40249
+P3: buy1:0.007809,22.0,sell1:0.007814,10.0
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:29 GMT
+
+
+-----find_trade_chance开始在交易所FCoin寻找三角套利机会,base:LTC,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:34 GMT
+P1: buy1:6352.4,0.001,sell1:6354.76,0.1318
+P2: buy1:49.61,2.0,sell1:49.68,40.6253
+P3: buy1:0.007801,1.283,sell1:0.007813,11.139
+在交易所FCoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:34 GMT
+
+
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:LTC,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:39 GMT
+P1: buy1:6351.24,0.0042,sell1:6356.82,0.5
+P2: buy1:49.5,9.0,sell1:49.7,201.4032
+P3: buy1:0.00778,59.24662,sell1:0.00783,13.662
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:39 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:LTC,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:44 GMT
+P1: buy1:6352.29,0.0053,sell1:6352.5,0.01
+P2: buy1:49.61,0.0019,sell1:49.62,44.334
+P3: buy1:0.007813,21.9346,sell1:0.007816,8.3896
+++++++发现逆套利机会 profit is 0.007083243440423253,price_diff is 0.01044177000000507,trade_size is 0.6783565851785486,P3: 0.007813 > P2/P1: 0.007811356219568061,time:Tue, 30 Oct 2018 09:33:44 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:LTC,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:49 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6355.449998,0.5
+P2: buy1:49.406947,4.7894,sell1:49.820982,10.0776
+P3: buy1:0.00778322,3.676154,sell1:0.00781004,95.439175
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:49 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:LTC,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:54 GMT
+P1: buy1:6350.7174,0.11527815,sell1:6351.932,3.53474114
+P2: buy1:49.5926,3.0,sell1:49.6366,0.001612
+P3: buy1:0.00780616,0.0011,sell1:0.00780995,0.026459
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:54 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:ADA,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:33:59 GMT
+P1: buy1:6351.83,0.134524,sell1:6351.84,1.044996
+P2: buy1:0.0702,300702.7,sell1:0.07027,7574.0
+P3: buy1:1.105e-05,75.0,sell1:1.106e-05,183949.0
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:33:59 GMT
+
+
+fetch_order_book e is fcoin No market symbol ADA/USDT ,exchange is FCoin
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:ADA,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:06 GMT
+P1: buy1:6351.24,0.0042,sell1:6356.82,0.5
+P2: buy1:0.0702,15469.79996859,sell1:0.0704,132256.47411
+P3: buy1:1.102e-05,6294.396,sell1:1.109e-05,1500.0
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:06 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:ADA,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:11 GMT
+P1: buy1:6352.27,0.0103,sell1:6352.29,9.3711
+P2: buy1:0.07017,8522.1893,sell1:0.070308,2500.0
+P3: buy1:1.105e-05,4407.34,sell1:1.106e-05,3127.0
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:11 GMT
+
+
+fetch_order_book e is kucoin No market symbol ADA/USDT ,exchange is Kucoin
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:ADA,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:18 GMT
+P1: buy1:6350.7197,0.01367149,sell1:6351.932,3.44144534
+P2: buy1:0.0702,20083.96659124,sell1:0.0703,1782.966
+P3: buy1:1.104e-05,3192.119,sell1:1.107e-05,1651.542
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:18 GMT
+
+
+fetch_order_book e is binance No market symbol XMR/USDT ,exchange is Binance
+fetch_order_book e is fcoin No market symbol XMR/USDT ,exchange is FCoin
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:XMR,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:27 GMT
+P1: buy1:6351.24,0.003377665,sell1:6356.82,0.5
+P2: buy1:101.74,2.98,sell1:102.48,0.014878135
+P3: buy1:0.01583646,0.3946,sell1:0.01617898,2.43
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:27 GMT
+
+
+fetch_order_book e is huobipro No market symbol XMR/USDT ,exchange is Huobi Pro
+fetch_order_book e is kucoin No market symbol XMR/USDT ,exchange is Kucoin
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:XMR,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:37 GMT
+P1: buy1:6350.7203,0.10001716,sell1:6351.9319,0.02784725
+P2: buy1:101.05,0.113446,sell1:101.3259,70.698244
+P3: buy1:0.0159,0.495929,sell1:0.01591292,0.000253
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:37 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:TRX,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:42 GMT
+P1: buy1:6350.6,0.10425,sell1:6351.0,1.12537
+P2: buy1:0.02218,53542.2,sell1:0.02222,47152.6
+P3: buy1:3.49e-06,2556617.0,sell1:3.5e-06,1965718.0
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:42 GMT
+
+
+fetch_order_book e is fcoin No market symbol TRX/USDT ,exchange is FCoin
+fetch_order_book e is gateio No market symbol TRX/BTC ,exchange is Gate.io
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:TRX,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:54 GMT
+P1: buy1:6351.71,0.002,sell1:6352.22,0.1408
+P2: buy1:0.022201,180.22,sell1:0.022219,25370.91
+P3: buy1:3.4941e-06,4002.65,sell1:3.4967e-06,2145.77
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:54 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:TRX,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:34:59 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6355.449998,0.5
+P2: buy1:0.0222,5.2923,sell1:0.02241,3147.7021
+P3: buy1:3.49e-06,1.2636,sell1:3.5e-06,6103.932
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:34:59 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:TRX,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:04 GMT
+P1: buy1:6350.7191,0.01902525,sell1:6351.932,3.21701076
+P2: buy1:0.022178,1592.68,sell1:0.022221,4001.03
+P3: buy1:3.49e-06,1468937.86,sell1:3.5e-06,73667.52
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:04 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:BNB,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:09 GMT
+P1: buy1:6350.57,0.608817,sell1:6350.6,2.330972
+P2: buy1:9.4285,14.13,sell1:9.4388,42.09
+P3: buy1:0.0014858,48.23,sell1:0.0014864,168.31
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:09 GMT
+
+
+fetch_order_book e is fcoin No market symbol BNB/BTC ,exchange is FCoin
+fetch_order_book e is gateio No market symbol BNB/BTC ,exchange is Gate.io
+fetch_order_book e is huobipro No market symbol BNB/USDT ,exchange is Huobi Pro
+fetch_order_book e is kucoin No market symbol BNB/USDT ,exchange is Kucoin
+fetch_order_book e is okex No market symbol BNB/USDT ,exchange is OKEX
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:ONT,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:31 GMT
+P1: buy1:6350.14,0.126355,sell1:6350.5,0.106518
+P2: buy1:1.656,4.132,sell1:1.657,12.051
+P3: buy1:0.0002606,0.03,sell1:0.0002609,809.37
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:31 GMT
+
+
+fetch_order_book e is fcoin No market symbol ONT/USDT ,exchange is FCoin
+fetch_order_book e is gateio No market symbol ONT/BTC ,exchange is Gate.io
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:ONT,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:44 GMT
+P1: buy1:6352.0,0.2568,sell1:6352.22,0.0053
+P2: buy1:1.6546,2975.332,sell1:1.657,108.0
+P3: buy1:0.00026058,772.2433,sell1:0.00026106,162.0
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:44 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:ONT,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:49 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6354.949998,0.5
+P2: buy1:1.650126,1.8757,sell1:1.76811,5.5292
+P3: buy1:0.00026184,1.8757,sell1:0.00026587,5.3285
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:49 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:ONT,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:54 GMT
+P1: buy1:6350.7213,0.19279693,sell1:6351.932,3.11955676
+P2: buy1:1.654,100.0,sell1:1.6575,53.604
+P3: buy1:0.00026029,90.605,sell1:0.00026095,53.676
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:54 GMT
+
+
+-----find_trade_chance开始在交易所Binance寻找三角套利机会,base:NEO,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:35:59 GMT
+P1: buy1:6350.11,0.19918,sell1:6350.14,0.081761
+P2: buy1:15.418,7.773,sell1:15.432,90.0
+P3: buy1:0.002428,14.42,sell1:0.002429,108.18
+在交易所Binance没有找到三角套利机会,time:Tue, 30 Oct 2018 09:35:59 GMT
+
+
+fetch_order_book e is fcoin No market symbol NEO/USDT ,exchange is FCoin
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:NEO,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:36:06 GMT
+P1: buy1:6350.61,0.5802,sell1:6356.82,0.5
+P2: buy1:15.38,12.33008402,sell1:15.5,11.6562
+P3: buy1:0.00241504,15.2796106738,sell1:0.00244992,2.798
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:36:06 GMT
+
+
+-----find_trade_chance开始在交易所Huobi Pro寻找三角套利机会,base:NEO,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:36:12 GMT
+P1: buy1:6350.97,1.4121,sell1:6352.25,1.4507
+P2: buy1:15.43,10.9223,sell1:15.45,215.2377
+P3: buy1:0.002428,31.1,sell1:0.002432,205.7583
+在交易所Huobi Pro没有找到三角套利机会,time:Tue, 30 Oct 2018 09:36:12 GMT
+
+
+-----find_trade_chance开始在交易所Kucoin寻找三角套利机会,base:NEO,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:36:18 GMT
+P1: buy1:6352.082371,0.02035426,sell1:6354.95,0.06374182
+P2: buy1:15.4115,1.33,sell1:15.550699,9.105744
+P3: buy1:0.00243,553.607309,sell1:0.00243718,35.83
+在交易所Kucoin没有找到三角套利机会,time:Tue, 30 Oct 2018 09:36:18 GMT
+
+
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:NEO,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:36:24 GMT
+P1: buy1:6350.8902,0.01028542,sell1:6351.932,3.11955676
+P2: buy1:15.4409,0.2,sell1:15.4591,65.001
+P3: buy1:0.00242501,17.27641,sell1:0.00243511,84.05
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:36:24 GMT
+
+
+fetch_order_book e is binance No market symbol DCR/USDT ,exchange is Binance
+fetch_order_book e is fcoin No market symbol DCR/USDT ,exchange is FCoin
+-----find_trade_chance开始在交易所Gate.io寻找三角套利机会,base:DCR,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:36:34 GMT
+P1: buy1:6350.61,0.5802,sell1:6356.82,0.5
+P2: buy1:40.015,1.2196,sell1:40.925,7.5138
+P3: buy1:0.006261,2.03867,sell1:0.006616,0.96250702
+在交易所Gate.io没有找到三角套利机会,time:Tue, 30 Oct 2018 09:36:34 GMT
+
+
+fetch_order_book e is huobipro No market symbol DCR/USDT ,exchange is Huobi Pro
+fetch_order_book e is kucoin No market symbol DCR/USDT ,exchange is Kucoin
+-----find_trade_chance开始在交易所OKEX寻找三角套利机会,base:DCR,quote:BTC,mid:USDT,time:Tue, 30 Oct 2018 09:36:44 GMT
+P1: buy1:6351.1546,0.001,sell1:6351.9319,0.01871556
+P2: buy1:39.9387,122.034,sell1:41.5563,68.043007
+P3: buy1:0.00629519,0.18377205,sell1:0.00634165,5.0
+在交易所OKEX没有找到三角套利机会,time:Tue, 30 Oct 2018 09:36:44 GMT
+
+
+
+Process finished with exit code 0
+
